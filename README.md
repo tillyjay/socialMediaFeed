@@ -1,5 +1,5 @@
 # socialMediaFeed
-* This repository only contains certain PHP files and not entire project, excluding such files as models, controllers, migrations, and seeders.*
+*This repository only contains certain PHP files and not entire project, excluding such files as models, controllers, migrations, and seeders.*
 
 This application is a dynamic social media feed with different users who each had unique administrative permissions for the feed, such as the ability to add users, or moderate posts.
 
