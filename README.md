@@ -1,31 +1,35 @@
-# socialMediaFeed
-*This repository only contains certain PHP files and not entire project, excluding such files as models, controllers, migrations, and seeders.*
+# SocialMedia Feed
+This dynamic social media feed provides users with a customizable interface, connecting different users with unique administrative permissions. Users can enjoy features such as adding new users or moderating posts, creating a dynamic and engaging online community. Please note that this repository only contains certain PHP files and does not include the entire project, excluding files such as models, controllers, migrations, and seeders.
 
-This application is a dynamic social media feed with different users who each had unique administrative permissions for the feed, such as the ability to add users, or moderate posts.
+## Features 
+- Dynamic Social Media Feed: Users can interact with a dynamic feed, CRUD operations with timestamps, each with unique administrative permissions.
+- Customizable Interface: The application offers a customizable interface based on an ERD connected to a dynamic MySQL database.
+- Administrative Functions: Users with administrative roles can add new users and moderate posts.
+- Front-End Validation: JavaScript is incorporated for form validation to enhance user experience.
 
-Based off an ERD connected to a dynamic MySQL database, a customizable interface was created using Php and the Laravel framework. The application also included a touch of JavaScript for form validation and was styled using the Bootstrap framework.
+## Technologies Used 
+- MySQL
+- Bootstrap 
+- PHP (Laravel framework)
+- JavaScript (for form validation)
 
-This application pushed me out of my comfort zone by combining various techniques and frameworks. It was really cool to work with not only front-end code, but also pull back and work with back-end development.
+## Challenges 
+- PHP Laravel Framework: Developing a dynamic social media feed using PHP within the Laravel framework pushed me to explore back-end development and combine it with front-end code.
+- Customizable Interface: Creating a customizable interface based on an Entity-Relationship Diagram (ERD) connected to a MySQL database required careful planning and implementation.
 
+## Future Improvements 
+- Expand Administrative Functions: Introduce additional administrative functions to provide users with more control and moderation options.
+- User Authentication: Implement a robust user authentication system for enhanced security.
 
-Social Media Feed Login
-
+### Social Media Feed Login
 ![SMfeed1](https://user-images.githubusercontent.com/97525044/218140430-d67519ab-2504-47aa-9298-5aeaccf29c3c.png)
 
-
-
-Main feed 
-
+### Main feed 
 ![SMFeed2](https://user-images.githubusercontent.com/97525044/218140536-d9e2e976-a95c-4267-826f-2ca098171332.png)
 
 
-
-Create new post with a different theme selected
-
+### Create new post with a different theme selected
 ![SMFeed3](https://user-images.githubusercontent.com/97525044/218140629-d518644a-4893-4372-a729-89adb9d90fbb.png)
 
-
-
-Manage users 
-
+### Manage users 
 ![SMFeed4](https://user-images.githubusercontent.com/97525044/218140695-dc90de22-bb2d-47f1-b3ac-80bff6bc58e1.png)
